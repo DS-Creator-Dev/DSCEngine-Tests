@@ -6,6 +6,10 @@ ifeq ($(strip $(DEVKITARM)),)
 $(error "Please set DEVKITARM in your environment. export DEVKITARM=<path to>devkitARM")
 endif
 
+ifeq ($(strip $(DSCENGINE)),)
+$(error "Please set DSCENGINE in your environment. export DSCENGINE=<path to>DSCEngine")
+endif
+
 # These set the information text in the nds file
 #GAME_TITLE     := My Wonderful Homebrew
 #GAME_SUBTITLE1 := built with devkitARM
@@ -13,7 +17,7 @@ endif
 
 include $(DEVKITARM)/ds_rules
 
-LIBDSC  := D:\Users\NotImpLife\Projects\DS-Creator\engine
+LIBDSC  := $(DSCENGINE)
 
 #---------------------------------------------------------------------------------
 # TARGET is the name of the output
