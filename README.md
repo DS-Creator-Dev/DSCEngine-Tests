@@ -58,7 +58,7 @@ This is a list of tests that DSCEngine should pass.
 |   32 | `Allocator::release()`           | Adjacent segments merging                                                            |⚠️|
 |   33 | `Allocator::release()`           | Freeing what resides at the start of the memory zone                                 |⚠️|
 |   34 | `Allocator::release()`           | Ignoring invalid addresses                                                           |⚠️|
-|   35 | `Measure::*`, `MeasureValue::*`  | Check the math, should be straight forward                                           |⚠️|
+|   35 | `Measure::*`, `MeasureValue::*`  | Check the math, should be straight forward                                           |✅|
 |   36 | `validate_palette_manager_constructor_input()`| Maybe also allow shadow-palettes in WRAM?   |🔸|
 |   37 | `free_bit_pos()`| Check the math, should be straight forward                                                            |🍦|
 |   38 | `PaletteManager::reserve1()`| Reserve a new color index                                                                 |🍦|
