@@ -22,7 +22,7 @@ This is a list of tests that DSCEngine should pass.
 
 ## Tests List
 
-| No.  | Related source file                  | Target                                 | Description                                                              | Passing |
+| No.  | Target                                 | Description                                                              | Passing |
 |-----:|:-------------------------------------|----------------------------------------|--------------------------------------------------------------------------|:-------:|
 |    1 | `_logv()`                              | Check for incorrect parsings, index-out-of-bounds etc                    |✅| 
 |    2 | `Event::trigger()`                     | Missed case: what if the EventHandler is null?                           |✅| 
