@@ -83,3 +83,5 @@ This is a list of tests that DSCEngine should pass.
 |   57 | `VramLoader::load()`          | Copies with additional buffer 8bpp w/ dynamic palette indices                           |🍦|
 |   58 | `Vector::*`          | Check Vector functionalities                          |✅|
 |   59 | `HashMap::*`         | Check HashMap functionalities                          |✅|
+|   59 | `Stack::*`         | Check Stack functionalities                          |✅|
+|   59 | `BitsArray::*`         | Check BitsArray functionalities                          |✅|
